@@ -18,4 +18,4 @@ This folder contains SQL practice queries completed as part of Databricks/Data E
 
 - datacreation.sql
 - queries.sql
-- output.md
+
