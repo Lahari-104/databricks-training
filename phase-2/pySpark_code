@@ -19,7 +19,7 @@ no_orders.show()
 --4.  City-wise total revenue
 city_revenue = (customers.join(orders, on="customer_id", how="inner")
                 .groupBy("city")
-                .agg(_sum("amount").alias("total_revenue")))
+                .agg(_sum("total_amount").alias("total_revenue")))
 city_revenue.show()
 
 --5.Average order amount per customer
